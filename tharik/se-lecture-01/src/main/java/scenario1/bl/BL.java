@@ -15,14 +15,9 @@ import scenario1.app.Employee;
 public class BL {
     public void process(DBUtil util) {
         Employee e = new Employee();
-        
         util.addEmployee(e);
-        
-        
         util.deleteEmployee("1");
-        
         util.updateEmployee("1");
-        
         util.getEmployee();
     }
 }
